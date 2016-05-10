@@ -1,8 +1,9 @@
 # cpp_adt
 The goal is to crate a big set of data structure made in c++
 
-
+#### Binary Tree
 Actually I implemented Binary Tree in C++ with this interface:
+
     - 	Tree(T elem);                                            is the constructor;
     -   ~Tree();                                                 is the destructor;
     -   Node<T>& add_right_child(Node<T> &parent, T child);      add the right child to a node
